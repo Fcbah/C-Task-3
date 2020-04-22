@@ -1,0 +1,13 @@
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/bin/Debug/netcoreapp3.1/Number-Guessing
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/bin/Debug/netcoreapp3.1/Number-Guessing.deps.json
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/bin/Debug/netcoreapp3.1/Number-Guessing.runtimeconfig.json
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/bin/Debug/netcoreapp3.1/Number-Guessing.runtimeconfig.dev.json
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/bin/Debug/netcoreapp3.1/Number-Guessing.dll
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/bin/Debug/netcoreapp3.1/Number-Guessing.pdb
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.csprojAssemblyReference.cache
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.csproj.CoreCompileInputs.cache
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.AssemblyInfoInputs.cache
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.AssemblyInfo.cs
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.dll
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.pdb
+/home/hephzibah/Desktop/startng/c#/Number-Guessing/obj/Debug/netcoreapp3.1/Number-Guessing.genruntimeconfig.cache
