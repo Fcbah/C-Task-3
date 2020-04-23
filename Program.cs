@@ -43,19 +43,19 @@ namespace Number_Guessing
                 Console.Write("Once again: Select Your Level of Difficulty: ");
             }//end while
             
-            bool win_out = game(max_guess_val, max_guess_trials);
+            bool win_out = game(guess_upper_range, max_guess_trials);
             
 
             if(win_out){
                 Console.WriteLine("YOU WIN - COMPUTER LOST");
             }//end if
             else{
-                Console.WriteLIne("COMPUTER WIN GAME OVER");
+                Console.WriteLine("COMPUTER WIN GAME OVER");
             }//end if/else win out
             
         }//end static void main()
 
-        void return_intro_and_menu(){
+        static string return_intro_and_menu(){
             string outt = "This game has three difficulty levels below\n";
             outt += "Enter the text in the <> brackets to select your difficulty level \n\n";
             outt += "<EASY> The easy level \n";
@@ -64,13 +64,14 @@ namespace Number_Guessing
             return outt;
         }
         
-        bool game(int max_guess_val, int max_guess_trial){
+        static bool game(int max_guess_val, int max_guess_trial){
             Random generator = new Random();
 
-            int[] positions = { "1st", "2nd", "3rd", "4th", "5th", "6th", "7th" };
+            string[] positions = { "1st", "2nd", "3rd", "4th", "5th", "6th", "7th" };
 
             Random rand = new Random();
-            answer = rand.Next(1, ++max_guess_val);
+            int answer = rand.Next(1, ++max_guess_val);
+            int guess
             int i = 0;
 
             Console.WriteLine("There is a whole number between [1, {0}], which I am keeping, If you guess it right before {1} trials, you win: otherwise you loose.",max_guess_val,max_guess_trial);
@@ -116,7 +117,7 @@ namespace Number_Guessing
             }//end while game is not over
             Console.WriteLine("The right answer was: {0}",answer);
             return false;
-            }//end while bool game
+            // }//end while bool game
         }
     }//end class
 }//end namespace
