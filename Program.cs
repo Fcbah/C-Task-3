@@ -13,8 +13,8 @@ namespace Number_Guessing
             
             //Selecting the difficulty level
             string raw;
-            int guess_upper_range;
-            int max_guess_trials;
+            int guess_upper_range = 0;
+            int max_guess_trials =0;
             Console.WriteLine(return_intro_and_menu());
             Console.Write("Select Your Level of Difficulty: ");
 
@@ -71,7 +71,7 @@ namespace Number_Guessing
 
             Random rand = new Random();
             int answer = rand.Next(1, ++max_guess_val);
-            int guess
+            int guess;
             int i = 0;
 
             Console.WriteLine("There is a whole number between [1, {0}], which I am keeping, If you guess it right before {1} trials, you win: otherwise you loose.",max_guess_val,max_guess_trial);
