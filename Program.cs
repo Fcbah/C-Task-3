@@ -74,7 +74,7 @@ namespace Number_Guessing
             int answer = rand.Next(1, 1+max_guess_val);
             int guess;
             int i = 0;
-
+            Console.WriteLine("******************************GAME STARTS*********************************\n");
             Console.WriteLine("There is a whole number between [1, {0}], which I am keeping, If you guess it right before {1} trials, you win: otherwise you loose.",max_guess_val,max_guess_trial);
 
             while (i < max_guess_trial)
@@ -97,7 +97,7 @@ namespace Number_Guessing
                     }//end try
                     catch (Exception gh)
                     {
-                        Console.WriteLine("\tInvalid Input, You cant Enter A number");
+                        Console.WriteLine("\tInvalid Input, You cant enter an alphabet");
                     }//end catch
 
                     Console.WriteLine("Repeat your {0} guess:", positions[i]);
