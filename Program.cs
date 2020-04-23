@@ -71,7 +71,7 @@ namespace Number_Guessing
             string[] positions = { "1st", "2nd", "3rd", "4th", "5th", "6th", "7th" };
 
             Random rand = new Random();
-            int answer = rand.Next(1, (++max_guess_val)--);
+            int answer = rand.Next(1, 1+max_guess_val);
             int guess;
             int i = 0;
 
