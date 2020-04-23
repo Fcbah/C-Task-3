@@ -37,10 +37,11 @@ namespace Number_Guessing
                 else{
                     invalid = true;
                     Console.WriteLine("Invalid Input, Enter a valid difficulty level");
+                    Console.WriteLine(return_intro_and_menu());
+                    Console.Write("Once again: Select Your Level of Difficulty: ");
                 }
 
-                Console.WriteLine(return_intro_and_menu());
-                Console.Write("Once again: Select Your Level of Difficulty: ");
+                
             }//end while
             
             bool win_out = game(guess_upper_range, max_guess_trials);
@@ -70,7 +71,7 @@ namespace Number_Guessing
             string[] positions = { "1st", "2nd", "3rd", "4th", "5th", "6th", "7th" };
 
             Random rand = new Random();
-            int answer = rand.Next(1, ++max_guess_val);
+            int answer = rand.Next(1, (++max_guess_val)--);
             int guess;
             int i = 0;
 
